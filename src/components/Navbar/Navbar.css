@@ -1,0 +1,114 @@
+.nav-container {
+    max-width: 1440px;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    padding: 0 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+li a {
+    text-decoration: none;
+    color: #505F98;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.nav-center {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #37447E;
+}
+
+/* Buy button styling */
+.buy {
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #96a6d8;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.buy:hover {
+    background-color: #111B47;
+    transform: scale(1.1);
+}
+
+/* Navbar hover effect */
+a:hover, li:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+/* Modal styling */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+    transition: all 1s ease-in-out;
+}
