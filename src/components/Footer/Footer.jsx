@@ -39,11 +39,11 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer-icons">
-                    <a target='_blank' href="https://www.facebook.com/"><img src="./facebook.png" alt="facebook" /></a>
-                    <a target='_blank' href="https://www.linkedin.com/"><img src="./linkedin.png" alt="linkedin" /></a>
-                    <a target='_blank' href="https://x.com/"><img src="./twitter.png" alt="twitter" /></a>
-                    <a target='_blank' href="https://www.youtube.com/"><img src="./youtube.png" alt="youtube" /></a>
-                    <a target='_blank' href="https://www.instagram.com/"><img src="./instagram.png" alt="instagram" /></a>
+                    <a target='_blank' rel="noreferrer noopener" href="https://www.facebook.com/"><img src="./facebook.png" alt="facebook" /></a>
+                    <a target='_blank' rel="noreferrer noopener" href="https://www.linkedin.com/"><img src="./linkedin.png" alt="linkedin" /></a>
+                    <a target='_blank' rel="noreferrer noopener" href="https://x.com/"><img src="./twitter.png" alt="twitter" /></a>
+                    <a target='_blank' rel="noreferrer noopener" href="https://www.youtube.com/"><img src="./youtube.png" alt="youtube" /></a>
+                    <a target='_blank' rel="noreferrer noopener" href="https://www.instagram.com/"><img src="./instagram.png" alt="instagram" /></a>
                 </div>
             </div>
 
